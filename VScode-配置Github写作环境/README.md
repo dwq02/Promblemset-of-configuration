@@ -62,3 +62,13 @@ git config --global http.sslVerify false
 ![](10.jpg)
 [参考文档](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 
+提交后，会出现一个文档，在最上方随便输入一个备注，然后点击上方的勾
+![](11.jpg)
+
+点击右上角三个点，点击push同步到github上
+![](12.jpg)
+
+## 4.登录github网址，查看是否上传成功。
+
+
+- [参考视频](https://www.bilibili.com/video/BV1jw41177sm/?spm_id_from=333.337.search-card.all.click&vd_source=af75e8cf52f63b22781c467b82b31e02)
