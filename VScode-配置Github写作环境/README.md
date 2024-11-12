@@ -1,4 +1,4 @@
-# Vscode配置Github写作环境
+# Vscode配置Github仓库工作环境
 
 
 ## 前置要求
