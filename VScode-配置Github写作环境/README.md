@@ -15,6 +15,7 @@
 ## 2.Vscode链接github仓库
 
 打开Vscode, 点击左边Source Control
+
 ![](02.jpg)
 
 此时需要下载git，下载完成后，点击Vscode左下角Manage, 打开设置(Setting)，搜索框中输入git.path, 打开Edit in setting.json
@@ -39,7 +40,9 @@
 在上方输入第1点提到的仓库地址
 
 - 报错提示：出现以下报错
+- 
 ![](07.jpg)
+
 解决方法：打开cmd控制台，输入
 
 ```
@@ -57,15 +60,21 @@ git config --global http.sslVerify false
 打开Source Control, 点击Commit提交
 
 - 这里如果第一次安装git，可能会出现如下报错
+- 
 ![](09.jpg)
+
 需要在cmd控制台输入以下命令
+
 ![](10.jpg)
+
 [参考文档](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 
 提交后，会出现一个文档，在最上方随便输入一个备注，然后点击上方的勾
+
 ![](11.jpg)
 
 点击右上角三个点，点击push同步到github上
+
 ![](12.jpg)
 
 ## 4.登录github网址，查看是否上传成功。
