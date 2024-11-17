@@ -67,9 +67,9 @@ Ctrl+F5运行测试文件，选择C++(GDB/LLDB)
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
-            "externalConsole":  false,
+            "externalConsole":  true, //此处可以选择是否打开控制台
             "MIMode": "gdb",
-            "miDebuggerPath": "D:\\Compiler\\mingw64\\bin\\g++.exe",//此处为C++编译器的位置
+            "miDebuggerPath": "D:\\Compiler\\mingw64\\bin\\gdb.exe",//此处为gdb编译器的位置
             "setupCommands": [
                 {
                     "description": "为 gdb 启用整齐打印",
@@ -86,6 +86,12 @@ Ctrl+F5运行测试文件，选择C++(GDB/LLDB)
 **此处需要注意，task.json的label应该要和launch.json的preLaunchTask一致，否则运行后会报错**
 
 [参考链接](https://blog.csdn.net/qq_43663476/article/details/124903618)
+
+**设置路径的时候，要注意launch.json的miDebuggerPath参数的路径应该是gdb的路径而不是g++，否则运行后会出现以下报错**
+
+![](03.jpg)
+
+
 
 **c_cpp_properties.json**
 
