@@ -37,15 +37,5 @@ cmake ..
 直接在Vscode终端输入
 
 ```
-mingw64-make
+mingw32-make
 ```
-
-当然实际上这个命令参数太长，可以将mingw64-make.exe直接重命名为make.exe，
-
-这样直接在Vscode终端输入
-
-```
-make
-```
-
-就可以生成可执行文件。
