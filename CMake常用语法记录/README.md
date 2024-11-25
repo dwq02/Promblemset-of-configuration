@@ -80,3 +80,5 @@ target_link_libraries(Hello_world ${func_lib})
 [中文文档](https://modern-cmake-cn.github.io/Modern-CMake-zh_CN/chapters/basics.html)
 
 [参考文档](https://blog.csdn.net/iuu77/article/details/129229361)
+
+[参考文档2](https://zhuanlan.zhihu.com/p/315768216)
