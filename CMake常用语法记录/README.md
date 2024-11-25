@@ -23,3 +23,11 @@ add_executable(CMakename Hello_world.cpp)
 ```cmake
 set(EXECUTABLE_OUTPUT_PATH ./output)
 ```
+
+## 参考
+
+[CMake官方文档](https://cmake.org/cmake/help/latest/index.html)
+
+[中文文档](https://modern-cmake-cn.github.io/Modern-CMake-zh_CN/chapters/basics.html)
+
+[参考文档](https://blog.csdn.net/iuu77/article/details/129229361)
