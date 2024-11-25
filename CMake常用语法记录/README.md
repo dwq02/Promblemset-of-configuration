@@ -72,6 +72,10 @@ target_link_libraries(Hello_world ${func_lib})
 
 第二个函数将库文件链接到可执行文件中。
 
+## CMake使用Eigen库
+
+[参考文档](https://zhuanlan.zhihu.com/p/361969822)
+
 
 ## 参考
 
