@@ -76,6 +76,37 @@ target_link_libraries(Hello_world ${func_lib})
 
 [参考文档](https://zhuanlan.zhihu.com/p/361969822)
 
+```cmake
+set(Eigen3_DIR "D:/Compiler/C_Library/install_directory/eigen-3.4.0/share/cmake") #设置Eigen搜索目录
+find_package(Eigen3 3.4 REQUIRED NO_MODULE) #查找Eigen功能包
+add_executable(welcome welcome.cpp)
+target_link_libraries(welcome Eigen3::Eigen) #将Eigen库链接到可执行文件
+```
+
+## CMake导入vtk库
+
+[参考文档](https://www.jianshu.com/p/07c51245424d)
+
+vtk安装完成后，可以在安装目录下看到4个文件夹
+
+![](01.jpg)
+
+为vtk设置vtk_dir，并寻找vtk包
+
+```cmake
+set(VTK_INSTALL_PREFIX "D:/Compiler/C_Library/install_directory/VTK-8.2.0")
+set(VTK_DIR ${VTK_INSTALL_PREFIX}/lib/cmake/vtk-8.2) #设置vtk搜索目录
+find_package(VTK REQUIRED) #查找vtk功能包
+```
+
+导入完成后，需要将头文件目录引入，并将库文件链接到可执行文件中
+
+```cmake
+include(${VTK_USE_FILE}) #导入头文件目录
+add_executable(vtktest testvtk.cpp)
+target_link_libraries(vtktest ${VTK_LIBRARIES}) #将vtk链接到可执行文件
+```
+
 
 ## 参考
 
