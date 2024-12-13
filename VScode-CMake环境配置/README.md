@@ -43,3 +43,7 @@ mingw32-make
 编译完成后，就可以看到执行目录里的可执行文件了。
 
 具体CMake语法参见[CMake常用语法记录](../CMake常用语法记录/)
+
+## CMake环境调试C++
+
+[参考链接](https://blog.csdn.net/qq_48383456/article/details/135651139)
